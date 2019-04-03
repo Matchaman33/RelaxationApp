@@ -1,0 +1,79 @@
+<!--
+Application Notes
+-----------------
+1) This Application needs to be run on a server (like XAMPP) to work properly!
+2) It would be best to run this application on Google Chrome as the css is optimized for it.
+3) This Application is using the Bootstrap framework and a Json library. (The Json library is used for the particle design)!
+4) 
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/mainScreen/main.css">
+
+
+    <!--BootStrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!--END BOOTSTRAP-->
+
+
+
+
+    <center>
+
+        <h4 id="head" style="margin: 0; font-size: 35px ; font-family: cursive; height: 60px;"> Relaxation App
+        </h4>
+
+
+        <center>
+
+
+            <div id="container">
+
+
+                <p id="relax">Relaxation App</p>
+
+
+                <div id="inside">
+                    <form action="/redirect.php" method="POST" autocomplete="off">
+
+
+                        Your Name <br>
+                        <input type="text" name="name" placeholder="John Doe" required /> <br><br>
+
+                        How do you like to relax?
+                        <input type="text" name="relaxation" placeholder="i.e listening to music" required /> <br>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="submit" id="submit">
+
+                    </form>
+
+
+                </div>
+                <!--Inside-->
+
+            </div>
+            <!--Container-->
+        </center>
+
+        <canvas id="canvas"> </canvas>
+
+        <script src="/mainScreen/index.js"></script>
+        </body>
+
+
+</html>

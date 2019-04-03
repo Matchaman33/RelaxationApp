@@ -1,0 +1,82 @@
+
+#container {
+    height: 450px;
+    width: 350px;
+    animation-name: myTransition;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;  
+    position: absolute;
+
+}
+
+@keyframes myTransition {
+
+0% {
+    background-color: dodgerblue; 
+    left: -400px;
+
+}
+
+25%{
+    top: 30px;
+    
+
+    
+
+}
+
+50%{}
+75%{}
+
+100%{
+    background-color: dodgerblue;
+    margin: auto;
+    opacity: 0.8;
+    top: 120px;
+    left: 455px;
+
+}
+
+}
+
+*/
+
+
+#container {
+    height: 450px;
+    width: 350px;
+    background-color: dodgerblue;
+    opacity: 0.7;
+    margin-top: 70px;
+}
+
+#relax {
+
+font-family: cursive;
+font-weight: bold;
+font-size: 30px;
+
+}
+
+
+
+
+
+#inside {
+    animation-delay: 3s;
+}
+
+
+#submit {
+
+
+    background-color: tomato;
+    width: 200px;
+}
+
+
+#canvas {
+
+    z-index: -1;
+    background-color: ;
+}
